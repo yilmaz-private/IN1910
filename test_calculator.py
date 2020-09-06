@@ -2,22 +2,22 @@ import calculator
 import math
 
 # Exercise 1
-# def test_add():
-#    a = 1
-#    assert a == 1
+def test_add():
+    a = 1
+    assert a == 1
 
 # Exercise 2
-# def test_add():
-#    computed = calculator.add(0.1,0.2)
-#    expected = 0.3
-#    epsilon = 1e-08
-#    assert abs(computed-expected) <= epsilon
+def test_add_float():
+    computed = calculator.add_float(0.1,0.2)
+    expected = 0.3
+    epsilon = 1e-08
+    assert abs(computed-expected) <= epsilon
 
 # Exercise 3
-# def test_add():
-#     computed = calculator.add("Hello ", "World")
-#     expected = "Hello World"
-#     assert computed == expected
+def test_add_string():
+    computed = calculator.add_string("Hello ", "World")
+    expected = "Hello World"
+    assert computed == expected
 
 # Exercise 4
 def test_factorial():

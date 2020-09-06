@@ -1,17 +1,16 @@
 import math
 
 # Exercise 1
-# 
-# def add(x,y):
-#    pass
+def add(x,y):
+    pass
 
 # Exercise 2
-# def add(x,y):
-#    return x+y
+def add_float(x,y):
+    return x+y
 
 # Exercise 3
-# def add(x,y):
-#     return x+y
+def add_string(x,y):
+    return x+y
 
 # Exercise 4
 def factorial(N):
